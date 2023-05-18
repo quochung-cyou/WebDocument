@@ -1,8 +1,14 @@
 # Thông tin
 
+![license](https://img.shields.io/crates/l/rustc-serialize/0.3.24.svg)
+
+
 Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 của CLB Lập Trình PTIT.
 
+
 ## Truy cập: [Tổng quan tài liệu](https://quochung-cyou.github.io/WebDocument/) 
+
+
 
 # Trong Repo này gồm có
 
@@ -18,7 +24,7 @@ Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 c�
 
 ### Giúp đỡ tôi bằng cách chia sẻ hoặc tặng sao
 
-![](docs/images/stars.gif)
+![](asset/stars.gif)
 
 ### Thông tin liên hệ 
 
