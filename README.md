@@ -2,7 +2,7 @@
 
 Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 của CLB Lập Trình PTIT.
 
-## Truy cập: https://quochung-cyou.github.io/WebDocument/
+## Truy cập: [Tổng quan tài liệu](https://quochung-cyou.github.io/WebDocument/) 
 
 # Trong Repo này gồm có
 
