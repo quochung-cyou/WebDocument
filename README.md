@@ -28,4 +28,4 @@ Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 c�
 
 ### Thông tin liên hệ 
 
-> Nếu có bất kỳ nội dung nào liên quan tới Spring Boot còn thiếu，hãy tạo [issues](https://github.com/quochung-cyou/WebDocument/issues) cho nó, tôi sẽ theo dõi và cải thiện。
+> Nếu có bất kỳ nội dung nào liên quan còn thiếu，hãy tạo [issues](https://github.com/quochung-cyou/WebDocument/issues) cho nó, tôi sẽ theo dõi và cải thiện。
