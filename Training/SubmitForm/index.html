@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./submitcss.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <html>
+   
+    <form method="GET" action="./submit.html" class="container">
+        <h2>ProPTIT Web D21</h2>
+      <div>
+        <label for="input_username"> Username: </label>
+        <input id="input_username" placeholder="Username" type="text" name="username" required/>
+      </div>
+      <br />
+      <div>
+        <label for="input_password"> Password: </label>
+        <input id="input_password" placeholder="Password" type="password" name="password" required/>
+      </div>
+      <br />
+      <div>
+        <label for="input_date"> Ngày sinh: </label>
+        <input id="input_date" type="date" name="date" required/>
+      </div>
+      <br />
+      <div>
+        <div>Sở thích:</div>
+        
+        <input type="checkbox" id="st1" name="sothich" value="Bóng đá" />
+        <label for="st1">Bóng đá</label><br />
+        <input type="checkbox" id="st2" name="sothich" value="Bóng rổ" />
+        <label for="st2">Bóng rổ</label><br />
+        <input type="checkbox" id="st3" name="sothich" value="Bóng chuyền" />
+        <label for="st3">Bóng chuyền</label><br />
+
+
+      </div>
+      <br />
+      <div>
+        <div>Giới tính:</div>
+        <input type="radio" id="gt1" name="gioitinh" value="Nam" required/>
+        <label for="gt1">Nam</label><br />
+        <input type="radio" id="gt2" name="gioitinh" value="Nu" required/>
+        <label for="gt2">Nữ</label><br />
+        <input type="radio" id="gt3" name="gioitinh" value="None" required/>
+        <label for="gt3">Không biết</label>
+      </div>
+      <br />
+      <div>
+        <div>Quê quán:</div>
+        <select name="quequan" required>
+          <option>Quê quán 1</option>
+          <option>Quê quán 2</option>
+          <option>Quê quán 3</option>
+        </select>
+      </div>
+      <br />
+      <input type="submit"></button>
+    </form>
+    
+  </body>
+</html>
