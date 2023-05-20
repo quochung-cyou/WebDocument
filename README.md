@@ -19,7 +19,8 @@ Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 c�
 
 ## Các phần học:
 
-- [✅ Buổi 1: Lý thuyết cơ bản về web, HTML cơ bản](./Buoi1/README.md). 
+- [✅ Buổi 1: Lý thuyết cơ bản về web, HTML cơ bản](https://quochung-cyou.github.io/WebDocument/Buoi1/README.md). 
+- [✅ Buổi 2: CSS cơ bản](https://quochung-cyou.github.io/WebDocument/Buoi2/README.md).
 
 
 ### Giúp đỡ tôi bằng cách chia sẻ hoặc tặng sao

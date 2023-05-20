@@ -1,4 +1,4 @@
-# Tài liệu Team Web: Tuần 1
+# Tài liệu Team Web: Buổi 1
 
 - Chuẩn bị: Nguyễn Quốc Hưng (quochung-cyou)
 
