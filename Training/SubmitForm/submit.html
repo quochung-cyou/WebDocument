@@ -17,7 +17,7 @@
 
         
         <div class="top-icons">
-            <a href="index.html" target="_blank"><i class="fas fa-long-arrow-alt-left" id="floatleft"></i></a>
+            <a href="index.html"><i class="fas fa-long-arrow-alt-left" id="floatleft"></i></a>
             <i class="fas fa-ellipsis-v" id="floatright"></i>
             <i class="far fa-heart" id="floatrightpad"></i>
         </div>
@@ -46,12 +46,14 @@
 
     <script>
         window.onload = function () {
-        var url = decodeURI(document.location.href),
+        var url = document.location.href,
         params = url.split('?')[1].split('&'),
         data = {}, tmp;
         for (var i = 0, l = params.length; i < l; i++) {
             tmp = params[i].split('=');
             data[tmp[0]] = tmp[1];
+            tmp[1] = tmp[1].replaceAll("+", " ");
+            tmp[1] = decodeURIComponent(tmp[1]);
             document.getElementById(tmp[0]).innerHTML += tmp[1] + "<br>";
         }
         console.log(url);
