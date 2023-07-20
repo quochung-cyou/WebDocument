@@ -76,15 +76,15 @@ function bai6() {
     ];
     let newObj = {};
     for (let i = 0; i < obj.length; i++) {
-            for (const key in obj[i]) {
-                if (key != 'a' && key != 'b') continue;
-                if (newObj.hasOwnProperty(key)) {
-                    newObj[key] += obj[i][key];
-                } else {
-                    newObj[key] = obj[i][key];
-                }
+        for (const key in obj[i]) {
+            if (key != 'a' && key != 'b') continue;
+            if (newObj.hasOwnProperty(key)) {
+                newObj[key] += obj[i][key];
+            } else {
+                newObj[key] = obj[i][key];
             }
-        
+        }
+
     }
     console.log(newObj);
 }

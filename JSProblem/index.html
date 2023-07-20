@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const root = document.querySelector("#root");
+
+      const data = [
+        {
+          link: "https://img.freepik.com/premium-vector/blue-social-media-logo_197792-1759.jpg",
+          title: "Facebook",
+        },
+        {
+          link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpUiU268A2jyL_yOLY6QXytoMnuchl4v9rWGk9B_VTtQ&s",
+          title: "Instagram",
+        },
+        {
+          link: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          title: "Github",
+        },
+      ];
+
+      const link =
+        "https://img.freepik.com/premium-vector/blue-social-media-logo_197792-1759.jpg";
+        let content = "";
+        for (x in data) {
+            let obj = data[x];
+            content += `
+                <div><img style="width: 32px;height: 32px;" src="${obj.link}"/>
+                <h2>${obj.title}</h2>
+            </div>
+            `
+        }
+      root.innerHTML = content;
+
+      /*
+
+        In ra logo và tên thông qua đối tượng data.
+        Thay string vào biến content
+
+      */
+    </script>
+  </body>
+</html>
