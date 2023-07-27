@@ -24,6 +24,8 @@ Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 c�
 - [✅ Buổi 3: CSS Responsive](https://quochung-cyou.github.io/WebDocument/Buoi3).
 - [✅ Buổi 4: JavaScript cơ bản](https://quochung-cyou.github.io/WebDocument/Buoi4).
 - [✅ Buổi 5: JavaScript ES6](https://quochung-cyou.github.io/WebDocument/Buoi5).
+- [✅ Buổi 6: DOM](https://quochung-cyou.github.io/WebDocument/Buoi6).
+- [✅ Buổi 7: JavaScript & DOM](https://quochung-cyou.github.io/WebDocument/Buoi7).
 
 
 
