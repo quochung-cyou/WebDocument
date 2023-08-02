@@ -26,7 +26,7 @@ Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 c�
 - [✅ Buổi 5: JavaScript ES6](https://quochung-cyou.github.io/WebDocument/Buoi5).
 - [✅ Buổi 6: DOM](https://quochung-cyou.github.io/WebDocument/Buoi6).
 - [✅ Buổi 7: JavaScript & DOM](https://quochung-cyou.github.io/WebDocument/Buoi7).
-
+- [✅ Buổi 8: Bất đồng bộ](https://quochung-cyou.github.io/WebDocument/Buoi8).
 
 
 ### Giúp đỡ tôi bằng cách chia sẻ hoặc tặng sao
