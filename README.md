@@ -8,6 +8,11 @@ Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 c�
 
 ## Truy cập: [Tổng quan tài liệu](https://quochung-cyou.github.io/WebDocument/) 
 
+## Bài tập
+
+End khóa HTML, CSS: https://github.com/quochung-cyou/FahasaUI
+Giữa khóa JavaScript: https://github.com/quochung-cyou/CyouTodo
+
 
 
 # Trong Repo này gồm có
@@ -27,6 +32,7 @@ Tài liệu chuẩn bị các buổi phục vụ cho Team Web trong khoá D21 c�
 - [✅ Buổi 6: DOM](https://quochung-cyou.github.io/WebDocument/Buoi6).
 - [✅ Buổi 7: JavaScript & DOM](https://quochung-cyou.github.io/WebDocument/Buoi7).
 - [✅ Buổi 8: Bất đồng bộ](https://quochung-cyou.github.io/WebDocument/Buoi8).
+- [✅ Buổi 9: React](https://quochung-cyou.github.io/WebDocument/Buoi9).
 
 
 ### Giúp đỡ tôi bằng cách chia sẻ hoặc tặng sao
