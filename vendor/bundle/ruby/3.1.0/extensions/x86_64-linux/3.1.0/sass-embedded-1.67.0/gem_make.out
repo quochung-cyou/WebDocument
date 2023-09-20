@@ -1,0 +1,5 @@
+current directory: /home/hungnguyen30/Documents/GitHub/WebDocument/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.67.0/ext/sass
+/usr/bin/ruby3.1 -I/usr/lib/ruby/vendor_ruby -rrubygems /home/hungnguyen30/Documents/GitHub/WebDocument/vendor/bundle/ruby/3.1.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/home/hungnguyen30/Documents/GitHub/WebDocument/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/sass-embedded-1.67.0 RUBYLIBDIR\=/home/hungnguyen30/Documents/GitHub/WebDocument/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/sass-embedded-1.67.0
+gem install --force --install-dir /home/hungnguyen30/Documents/GitHub/WebDocument/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.67.0/ext/sass/ruby --no-document --ignore-dependencies --platform x86_64-linux-gnu --version 1.67.0 sass-embedded
+cp -r /home/hungnguyen30/Documents/GitHub/WebDocument/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.67.0/ext/sass/ruby/gems/sass-embedded-1.67.0-x86_64-linux/ext/sass/dart-sass dart-sass
+rm -rf /home/hungnguyen30/Documents/GitHub/WebDocument/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.67.0/ext/sass/ruby
