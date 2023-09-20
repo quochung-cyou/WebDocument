@@ -1,5 +1,5 @@
 ---
-title: Tài liệu Team Web: Buổi 1
+title: Buổi 1
 layout: default
 ---
 
