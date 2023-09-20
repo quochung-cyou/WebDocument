@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Dashboard - CyouTodo</title>
+    <link rel="stylesheet" href="asset/css/index.css">
+    <link rel="stylesheet" href="asset/css/preloader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="asset/img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="preloader">
+        <main>
+            <svg class="ap" viewBox="0 0 128 256" width="128px" height="256px" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="ap-grad1" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="hsl(223,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(253,90%,55%)" />
+                    </linearGradient>
+                    <linearGradient id="ap-grad2" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="hsl(193,90%,55%)" />
+                        <stop offset="50%" stop-color="hsl(223,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(253,90%,55%)" />
+                    </linearGradient>
+                </defs>
+                <circle class="ap__ring" r="56" cx="64" cy="192" fill="none" stroke="#ddd" stroke-width="16"
+                    stroke-linecap="round" />
+                <circle class="ap__worm1" r="56" cx="64" cy="192" fill="none" stroke="url(#ap-grad1)" stroke-width="16"
+                    stroke-linecap="round" stroke-dasharray="87.96 263.89" />
+                <path class="ap__worm2" d="M120,192A56,56,0,0,1,8,192C8,161.07,16,8,64,8S120,161.07,120,192Z"
+                    fill="none" stroke="url(#ap-grad2)" stroke-width="16" stroke-linecap="round"
+                    stroke-dasharray="87.96 494" />
+            </svg>
+        </main>
+    </div>
+    <div class="left-sidebar">
+        <div class="sidebar-item active">
+            <a href="dashboard.html"><i class="fas fa-columns"></i></a>
+        </div>
+
+        <div class="sidebar-item ">
+            <a href="index.html"><i class="fas fa-tasks"></i></a>
+        </div>
+
+        <div class="sidebar-item">
+            <a href="calendar.html"><i class="fas fa-calendar-alt"></i></a>
+        </div>
+
+        <div class="sidebar-item">
+            <a href="setting.html"><i class="fas fa-cogs"></i></a>
+        </div>
+
+        <div class="log-out-sidebar" style="height: 100%;">
+            <div class="sidebar-item" id="btn_signout">
+                <i class="fas fa-sign-out-alt"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="main-content">
+            <div class="dashboard-header">
+                <div class="dashboard-header-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search" id="searchbar">
+                </div>
+                <span id="currenttime">Current Time</span>
+                <div class="darklightmode">
+
+                    <div class="darklightmode-item" id="lightmode">
+                        <i class="fas fa-sun"></i>
+                        <span>Light</span>
+                    </div>
+                    <div class="darklightmode-item uncheck" id="darkmode">
+                        <i class="fas fa-moon"></i>
+                        <span>Dark</span>
+                    </div>
+                    <div class="darklightmode-highlight" id="darklightmode-highlight"></div>
+                    <div class="animation-circle"></div>
+                </div>
+
+            </div>
+
+            <div class="dashboard-task">
+                <div class="dashboard-task-header">
+                    <div class="dashboard-task-lasttask-number">
+                        <h2>Last Tasks</h2>
+                        <span id="lasttask-number">0 total, </span><span>proceed to resolve them</span>
+                    </div>
+                    <div class="dashboard-task-number border-right">
+                        <h2 id="dashboard-task-done-number">0</h2>
+                        <span>Done</span>
+                    </div>
+                    
+                    <div class="dashboard-task-number">
+                        <h2 id="dashboard-task-undone-number">0</h2>
+                        <span>Undone</span>
+                    </div>
+                </div>
+                <table class="dashboard-progress">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Admin</th>
+                            <th>Member</th>
+                            <th>Progress</th>
+                            <th>Due date</th>
+                            <th>Time left</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+            </table>
+            </div>
+            <div class="dashboard-stat">
+                <div class="dashboard-stat-chart" id="chart1">
+                </div>
+
+                <div class="dashboard-stat-chart" id="chart2">
+                </div>
+
+                
+            </div>
+
+        </div>
+
+        
+    </div>
+    <script src="asset/js/dashboard.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="asset/js/lightdarkmode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+</body>
+
+</html>

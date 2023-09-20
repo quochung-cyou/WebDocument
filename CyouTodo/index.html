@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>CyouTodo</title>
+    <link rel="stylesheet" href="asset/css/index.css">
+    <link rel="stylesheet" href="asset/css/preloader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="asset/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="preloader">
+        <main>
+            <svg class="ap" viewBox="0 0 128 256" width="128px" height="256px" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="ap-grad1" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="hsl(223,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(253,90%,55%)" />
+                    </linearGradient>
+                    <linearGradient id="ap-grad2" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="hsl(193,90%,55%)" />
+                        <stop offset="50%" stop-color="hsl(223,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(253,90%,55%)" />
+                    </linearGradient>
+                </defs>
+                <circle class="ap__ring" r="56" cx="64" cy="192" fill="none" stroke="#ddd" stroke-width="16"
+                    stroke-linecap="round" />
+                <circle class="ap__worm1" r="56" cx="64" cy="192" fill="none" stroke="url(#ap-grad1)" stroke-width="16"
+                    stroke-linecap="round" stroke-dasharray="87.96 263.89" />
+                <path class="ap__worm2" d="M120,192A56,56,0,0,1,8,192C8,161.07,16,8,64,8S120,161.07,120,192Z"
+                    fill="none" stroke="url(#ap-grad2)" stroke-width="16" stroke-linecap="round"
+                    stroke-dasharray="87.96 494" />
+            </svg>
+        </main>
+    </div>
+    <div class="left-sidebar">
+        <div class="sidebar-item">
+            <a href="dashboard.html"><i class="fas fa-columns"></i></a>
+        </div>
+
+        <div class="sidebar-item active">
+            <a href="index.html"><i class="fas fa-tasks"></i></a>
+        </div>
+
+        <div class="sidebar-item">
+            <a href="calendar.html"><i class="fas fa-calendar-alt"></i></a>
+        </div>
+
+        <div class="sidebar-item">
+            <a href="setting.html"><i class="fas fa-cogs"></i></a>
+        </div>
+
+        <div class="log-out-sidebar" style="height: 100%;">
+            <div class="sidebar-item" id="btn_signout">
+                <i class="fas fa-sign-out-alt"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="add-task">
+            <div class="add-task-blur"></div>
+            <div class="add-task-content">
+                <div class="add-task-content__header">
+                    <i class="fas fa-inbox"></i>
+                    <h2>Add Task</h2>
+                    <i class="fas fa-ellipsis-h"></i>
+                    <i class="fas fa-times btn_close"></i>
+                </div>
+                <div class="add-task-main-content">
+                    <div class="add-task-content-left">
+                        <input type="text" id="title" placeholder="Title">
+                        <input type="text" id="category" placeholder="Category">
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+    
+                        <div class="add-task__footer">
+                            <div class="add-task__footer__right__btn" id="btn_add">
+                                <i class="fas fa-plus"></i>
+                                <span>Add</span>
+                            </div>
+                            <div class="add-task__footer__right__btn" id="btn_cancel">
+                                <i class="fas fa-times"></i>
+                                <span>Cancel</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-task-content-right">
+                        <div class="due-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Due date</span>
+                            <input type="date" id="due_date">
+                            
+                        </div>
+                        <div class="priority" >
+                            <i class="fas fa-flag"></i>
+                            <span id="priority">Priority</span>
+                            <h2 id="priority">Need to do now</h2>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="edit-task">
+            <div class="edit-task-blur"></div>
+            <div class="edit-task-content">
+                <div class="edit-task-content__header">
+                    <i class="fas fa-inbox"></i>
+                    <h2>Edit Task</h2>
+                    <i class="fas fa-ellipsis-h"></i>
+                    <i class="fas fa-times btn_close"></i>
+                </div>
+                <div class="edit-task-main-content">
+                    <div class="edit-task-content-left">
+                        <input type="text" id="title_edit" placeholder="Title">
+                        <input type="text" id="category_edit" placeholder="Category">
+                        <textarea name="description" id="description_edit" cols="30" rows="10" placeholder="Description"></textarea>
+    
+                        <div class="edit-task__footer">
+                            <div class="edit-task__footer__right__btn" id="btn_edit">
+                                <i class="fas fa-plus"></i>
+                                <span>Confirm</span>
+                            </div>
+                            <div class="edit-task__footer__right__btn" id="btn_cancel_edit">
+                                <i class="fas fa-times"></i>
+                                <span>Cancel</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="edit-task-content-right">
+                        <div class="due-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Due date</span>
+                            <input type="date" id="due_date_edit">
+                            
+                        </div>
+                        <div class="priority">
+                            <i class="fas fa-flag"></i>
+                            <span>Priority</span>
+                            <h2 id="priority_edit">Need to do now</h2>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="main-content">
+            <div class="dashboard-header">
+                <div class="dashboard-header-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search" id="searchbar">
+                </div>
+                <span id="currenttime">Current Time</span>
+                <div class="darklightmode">
+
+                    <div class="darklightmode-item" id="lightmode">
+                        <i class="fas fa-sun"></i>
+                        <span>Light</span>
+                    </div>
+                    <div class="darklightmode-item uncheck" id="darkmode">
+                        <i class="fas fa-moon"></i>
+                        <span>Dark</span>
+                    </div>
+                    <div class="darklightmode-highlight" id="darklightmode-highlight"></div>
+                    <div class="animation-circle">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <h2>Board</h2>
+
+            <div class="main-container-task">
+                <div class="task-board" id="todo">
+                    <div class="board-header">
+                        <i class="fas fa-circle" style="margin-right:10px;color: #333;"></i>
+                        <span>To do</span>
+                        <i class="fas fa-plus board-header-icon" data-status="todo"></i>
+                        <i class="fas fa-ellipsis-h board-header-icon"></i>
+                    </div>
+
+                </div>
+                <div class="task-board" id="doing">
+                    <div class="board-header">
+                        <i class="fas fa-circle" style="margin-right:10px;color: gold;"></i>
+                        <span>In Progress</span>
+                        <i class="fas fa-plus board-header-icon" data-status="doing"></i>
+                        <i class="fas fa-ellipsis-h board-header-icon"></i>
+
+                    </div>
+
+                </div>
+                <div class="task-board" id="done">
+                    <div class="board-header">
+                        <i class="fas fa-circle" style="margin-right:10px;color: green;"></i>
+                        <span>Done</span>
+                        <i class="fas fa-plus board-header-icon" data-status="done"></i>
+                        <i class="fas fa-ellipsis-h board-header-icon"></i>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.js'></script>
+    <script src="asset/js/lightdarkmode.js"></script>
+    <script type="module" src="asset/js/index.js"></script>
+
+
+</body>
+
+</html>

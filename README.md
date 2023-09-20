@@ -33,6 +33,8 @@ Giữa khóa JavaScript: https://github.com/quochung-cyou/CyouTodo
 - [✅ Buổi 7: JavaScript & DOM](https://quochung-cyou.github.io/WebDocument/Buoi7).
 - [✅ Buổi 8: Bất đồng bộ](https://quochung-cyou.github.io/WebDocument/Buoi8).
 - [✅ Buổi 9: React](https://quochung-cyou.github.io/WebDocument/Buoi9).
+- [✅ Buổi 10: JSX, Props và State](https://quochung-cyou.github.io/WebDocument/Buoi10).
+- [✅ Buổi 11: Lifecycle, useEffect, useRef, Axios](https://quochung-cyou.github.io/WebDocument/Buoi11).
 
 
 ### Giúp đỡ tôi bằng cách chia sẻ hoặc tặng sao
