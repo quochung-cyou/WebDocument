@@ -1,3 +1,8 @@
+---
+title: Thông tin
+layout: home
+---
+
 # Thông tin
 
 ![license](https://img.shields.io/crates/l/rustc-serialize/0.3.24.svg)
