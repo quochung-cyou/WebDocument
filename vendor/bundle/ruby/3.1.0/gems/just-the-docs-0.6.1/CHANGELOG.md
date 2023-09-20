@@ -19,24 +19,6 @@ Code changes to `main` that are *not* in the latest release:
 
 - N/A
 
-## Release v0.6.2
-
-Hi all, this is a small patch release that includes two changes: adding a missing Windows emoji font fallback, and removing some (now-unused) code introduced in 0.6.
-
-### Bugfixes
-
-- Fixed: Windows emoji font fallback by [@flanakin] in [#1337]
-- Removed: unused `.passive` toggle in navigation by [@pdmosses] in [#1335]
-
-[#1335]: https://github.com/just-the-docs/just-the-docs/pull/1335
-[#1337]: https://github.com/just-the-docs/just-the-docs/pull/1337
-
-### New Contributors
-
-- [@flanakin] made their first contribution in [#1337]
-
-[@flanakin]: https://github.com/flanakin
-
 ## Release v0.6.1
 
 Hi all, this is a small patch release that only includes one change: resolving a bug introduced in 0.6.0 that causes a JS error for pages excluded from navigation.
@@ -45,7 +27,7 @@ Hi all, this is a small patch release that only includes one change: resolving a
 
 - Fixed: JS error for pages excluded from navigation by [@pdmosses] in [#1332]
 
-[#1332]: https://github.com/just-the-docs/just-the-docs/pull/1332
+[#332]: https://github.com/just-the-docs/just-the-docs/pull/1332
 
 ## Release v0.6.0
 

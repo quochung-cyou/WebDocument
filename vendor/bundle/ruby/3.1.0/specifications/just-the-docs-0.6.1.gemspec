@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
-# stub: just-the-docs 0.6.2 ruby lib
+# stub: just-the-docs 0.6.1 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "just-the-docs".freeze
-  s.version = "0.6.2"
+  s.version = "0.6.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "bug_tracker_uri" => "https://github.com/just-the-docs/just-the-docs/issues", "changelog_uri" => "https://github.com/just-the-docs/just-the-docs/blob/main/CHANGELOG.md", "documentation_uri" => "https://just-the-docs.com/", "source_code_uri" => "https://github.com/just-the-docs/just-the-docs" } if s.respond_to? :metadata=
   s.require_paths = ["lib".freeze]
   s.authors = ["Patrick Marsceill".freeze, "Matthew Wang".freeze]
-  s.date = "2023-09-20"
+  s.date = "2023-08-26"
   s.email = ["patrick.marsceill@gmail.com".freeze, "matt@matthewwang.me".freeze]
   s.executables = ["just-the-docs".freeze]
   s.files = ["bin/just-the-docs".freeze]
