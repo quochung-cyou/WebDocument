@@ -1,5 +1,5 @@
 ---
-title: Tài liệu Team Web: Buổi 2
+title: Buổi 2
 layout: post
 ---
 

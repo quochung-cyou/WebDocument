@@ -1,6 +1,6 @@
 ---
 title: Buổi 1
-layout: default
+layout: post
 ---
 
 

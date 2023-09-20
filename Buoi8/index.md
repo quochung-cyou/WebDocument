@@ -1,5 +1,5 @@
 ---
-title: Tài liệu Team Web: Buổi 8
+title: Buổi 8
 layout: post
 ---
 
