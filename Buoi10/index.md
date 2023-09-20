@@ -1,6 +1,6 @@
 ---
 title: Tài liệu Team Web: Buổi 10
-layout: post
+layout: default
 ---
 
 # Tài liệu Team Web: Buổi 10
