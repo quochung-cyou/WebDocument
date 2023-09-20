@@ -1,5 +1,3 @@
-
-
 ---
 title: Tài liệu Team Web: Buổi 7
 layout: post

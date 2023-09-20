@@ -1,3 +1,8 @@
+---
+title: Tài liệu Team Web: Buổi 10
+layout: post
+---
+
 # Tài liệu Team Web: Buổi 10
 
 - Chuẩn bị: Nguyễn Quốc Hưng (quochung-cyou)

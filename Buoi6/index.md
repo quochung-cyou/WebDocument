@@ -1,5 +1,3 @@
-
-
 ---
 title: Tài liệu Team Web: Buổi 6
 layout: post
